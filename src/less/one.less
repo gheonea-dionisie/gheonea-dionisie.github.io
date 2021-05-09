@@ -1,0 +1,22 @@
+.font() {
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+@backround:#0f0f0f;
+
+.header {
+    .font;
+}
+
+.section-header {
+    .font;
+    background-color: black;
+    font: 1em sans-serif;
+}
+
+.second-header {
+    .section-header;
+    background-color: @backround;
+}
